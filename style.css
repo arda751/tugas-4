@@ -1,0 +1,117 @@
+.hero-image {
+      background-image: url('image konser/homewebL.jpg'); /* Ganti dengan nama file gambar kamu */
+      background-size: cover;
+      background-position: center;
+      height: 100vh; /* Full screen height */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 5px black;
+    }
+
+    
+.red-text {
+      color: #ac1931; /* Warna merah sesuai gambar */
+      font-weight: bold;
+    }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #000000, #5a189a);
+  color: white;
+}
+
+button, .btn, .buy-now {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Bagian About */
+.about-section {
+  padding: 60px 0;
+}
+
+.about-text h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.schedule-section {
+  padding: 60px 0;
+}
+
+.schedule-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+}
+
+.schedule-box p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.schedule-item {
+  border: 1px solid white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.schedule-img {
+  width: 180px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50% / 50%; 
+  border: 3px solid white;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Bagian Gallery */
+#gallery h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.gallery-img {
+  width: 100%;
+  max-width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin: 0 auto;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .about-img, .gallery-img {
+    width: 100px;
+    height: 100px;
+  }
+}
